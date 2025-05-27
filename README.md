@@ -1,6 +1,6 @@
 # WordPress with Docker Compose 🐳
 
-This project sets up a WordPress website using Docker Compose with a MySQL backend. It serves as a beginner-friendly demo to understand containerized applications.
+This project sets up a WordPress website using Docker Compose with a MySQL backend. It serves as a  demo to understand containerized applications.
 
 ---
 
@@ -18,18 +18,20 @@ wordpress-docker/
     ├── wordpress dashboard2.png
     ├── wordpress folder structure.png
     └── wordpress hostpage.png
+```
 ---
+
 Technologies Used:
 
-Docker
+*Docker
 
-Docker Compose
+*Docker Compose
 
-WordPress
+*WordPress
 
-MySQL
+*MySQL
 
-WSL (Windows Subsystem for Linux)
+*WSL (Windows Subsystem for Linux)
 ---
 
 ## Screenshots Attached
@@ -73,12 +75,14 @@ WSL (Windows Subsystem for Linux)
 2. Start containers:
 docker compose up -d
 
-3.Access:
+3. Access:
 WordPress: http://localhost:8000
 MySQL: Running on port 3306 (used internally)
 
 4. Stop containers (when done)
 docker compose down
+
+```
 ---
 
 ## 📌 Notes

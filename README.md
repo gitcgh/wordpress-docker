@@ -32,26 +32,34 @@ MySQL
 WSL (Windows Subsystem for Linux)
 ---
 
-Screenshots Attached 
+## Screenshots Attached
 
- Docker Compose Output  
+### Docker Compose Output
+
 ![Docker Compose CLI Output](snapshots/Docker%20Compose%20CLI%20Output.png)
 
-###  docker-compose.yml  
+### docker-compose.yml
+
 ![dockercomposeyml](snapshots/dockercomposeyml.png)
 
-###  WordPress Running Status  
+### WordPress Running Status
+
 ![running status](snapshots/running%20status.png)
 
-###  WordPress Homepage  
+### WordPress Homepage
+
 ![wordpress hostpage](snapshots/wordpress%20hostpage.png)
 
-###  Folder Structure  
+### Folder Structure
+
 ![wordpress folder structure](snapshots/wordpress%20folder%20structure.png)
 
-###  WordPress Admin Dashboard  
-![wordpress dashboard](snapshots/wordpress%20dashboard.png)  
+### WordPress Admin Dashboard
+
+![wordpress dashboard](snapshots/wordpress%20dashboard.png)
+
 ![wordpress dashboard2](snapshots/wordpress%20dashboard2.png)
+
 
 ---
 
@@ -70,7 +78,7 @@ WordPress: http://localhost:8000
 MySQL: Running on port 3306 (used internally)
 
 4. Stop containers (when done)
-
+docker compose down
 ---
 
 ## 📌 Notes
